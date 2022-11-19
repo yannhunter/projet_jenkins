@@ -1,2 +1,4 @@
 test projet jenkins 
-mise a jour via la branche dev ..
+mise a jour via la branche dev .
+on creer une branche :
+git branch staging .
