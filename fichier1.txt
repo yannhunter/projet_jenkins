@@ -1,2 +1,2 @@
 test projet jenkins 
-mise a jour via la branche dev ..
+mise a jour via la branche master..
