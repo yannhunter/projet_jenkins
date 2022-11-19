@@ -1,2 +1,8 @@
 test projet jenkins 
+<<<<<<< HEAD
 mise a jour via la branche master..
+=======
+mise a jour via la branche dev .
+on creer une branche :
+git branch staging .
+>>>>>>> master
