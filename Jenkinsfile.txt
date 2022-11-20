@@ -2,7 +2,6 @@ node {
    stage('Pull') {
             steps {
               echo " execution du stage pull "
-                sh "ls"
             }
         }
 
