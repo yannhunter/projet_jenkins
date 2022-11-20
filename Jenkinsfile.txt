@@ -1,12 +1,7 @@
 node {
    stage('Pull') {
             steps {
-                checkout([$class: 'GitSCM',
-                branches: [[name: '*/master']],
-                doGenerateSubmoduleConfigurations: false,
-                extensions: [],
-                submoduleCfg: [],
-                userRemoteConfigs: [[url: 'https://github.com/yannhunter/projet_jenkins.git']]])
+              echo " execution du stage pull "
                 sh "ls"
             }
         }
