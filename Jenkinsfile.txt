@@ -1,10 +1,4 @@
 node {
-   stage('Pull') {
-            steps {
-              echo " execution du stage pull "
-            }
-        }
-
     stage('Clone') {
         git 'https://github.com/yannhunter/projet_jenkins.git'  
     }
