@@ -1,4 +1,16 @@
 node {
+   stage('Pull') {
+            steps {
+                checkout([$class: 'GitSCM',
+                branches: [[name: '*/master']],
+                doGenerateSubmoduleConfigurations: false,
+                extensions: [],
+                submoduleCfg: [],
+                userRemoteConfigs: [[url: 'https://github.com/yannhunter/projet_jenkins.git']]])
+                sh "ls"
+            }
+        }
+
     stage('Clone') {
         git 'https://github.com/yannhunter/projet_jenkins.git'  
     }
