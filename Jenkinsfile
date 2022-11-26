@@ -10,6 +10,7 @@ node {
    }
     stage('Run') {
      sh ''' 
+          echo bonjour la team
             java Main
         '''
 }
